@@ -1,0 +1,338 @@
+{
+  "mod_elements": [
+    {
+      "name": "StrongDiamont",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_diamont",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/item/StrongDiamontItem.java",
+          "src/main/resources/assets/amulet/models/item/strong_diamont.json"
+        ]
+      }
+    },
+    {
+      "name": "RGD",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amulet/recipes/rgd.json"
+        ]
+      }
+    },
+    {
+      "name": "Updatetable",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "updatetable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amulet/blockstates/updatetable.json",
+          "src/main/java/net/ktf/amulet/block/entity/UpdatetableBlockEntity.java",
+          "src/main/resources/assets/amulet/models/item/updatetable.json",
+          "src/main/resources/assets/amulet/models/block/updatetable.json",
+          "src/main/java/net/ktf/amulet/block/UpdatetableBlock.java",
+          "src/main/resources/data/amulet/loot_tables/blocks/updatetable.json"
+        ]
+      }
+    },
+    {
+      "name": "UpdatetableWennBlockHinzugefugt",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "updatetable_wenn_block_hinzugefugt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/UpdatetableWennBlockHinzugefugtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GTE",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/world/inventory/GTEMenu.java",
+          "src/main/java/net/ktf/amulet/client/gui/GTEScreen.java",
+          "src/main/java/net/ktf/amulet/network/GTESlotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Amulet",
+      "type": "curiosbauble",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/item/AmuletItem.java",
+          "src/main/resources/assets/amulet/models/item/amulet.json"
+        ]
+      }
+    },
+    {
+      "name": "UMain",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/UMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmuletWennEinGegenstandHergestelltOderGeschmolzenWurde",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_wenn_ein_gegenstand_hergestellt_oder_geschmolzen_wurde",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/AmuletWennEinGegenstandHergestelltOderGeschmolzenWurdeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RUT",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amulet/recipes/rut.json"
+        ]
+      }
+    },
+    {
+      "name": "RA",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amulet/recipes/ra.json"
+        ]
+      }
+    },
+    {
+      "name": "AmuletWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/AmuletWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmuletBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/AmuletBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Umainn",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umainn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/UmainnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Umaina",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umaina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/UmainaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmuletBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/AmuletBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perma",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/amulet/procedures/PermaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "time",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.amulet.strong_diamont": "Strong Diamont",
+      "gui.amulet.gte.button_m": "M",
+      "block.amulet.updatetable": "Updatetable",
+      "item.amulet.amulet": "Amulett"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "amulet",
+    "modName": "Amulet",
+    "version": "1.0.1",
+    "description": "It adds an amulet, which makes you stronger. Curios Api required",
+    "author": "katze1503",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/amulett",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "a",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "It\u0027s my first mod",
+    "modElementsPackage": "net.ktf.amulet"
+  },
+  "mcreatorVersion": 202400118518
+}

@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="amulet"
+version="1.1.0"
+displayName="Amulet"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/amulett"
+logoFile="logo.png"
+credits="It's my first mod"
+authors="katze1503"
+description="It adds an amulet, which makes you stronger. Curios Api required"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.amulet]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.amulet]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

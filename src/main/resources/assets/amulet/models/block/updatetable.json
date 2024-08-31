@@ -1,0 +1,9 @@
+{
+  "parent": "amulet:custom/updating_table",
+  "textures": {
+    "all": "amulet:block/1",
+    "particle": "amulet:block/1",
+    "1": "amulet:block/1"
+  },
+  "render_type": "solid"
+}

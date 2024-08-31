@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "a",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "item": "amulet:strong_diamont"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "amulet:updatetable",
+    "count": 1
+  }
+}
